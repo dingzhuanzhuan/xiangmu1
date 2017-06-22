@@ -1,0 +1,138 @@
+.new_coent{
+	margin-top: 20px;
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+}
+.new_coent_left{
+	width: 674px;
+	height: 500px;
+	float: left;
+}
+.new_coent_left .dao:hover .action_dh_tu ul {
+	color: white;
+	background-position-y:-65px;
+	
+}
+.new_coent_left p{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.new_coent_left p a{
+	font-size: 14px;
+}
+.action_dh_tu ul{
+	margin-left: 10px;
+	width: 63px;
+	height: 65px;
+	float: left;
+	background: url(../img/dh.gif) no-repeat;
+}
+.action_dh_tu ul li{
+	list-style: none;
+}
+.action_dh_tu ul li:nth-child(1){
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 18px;
+	font-weight: bold;
+}
+.action_dh_tu ul li:nth-child(2){
+	font-size: 12px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+.action_dh_coent{
+	font-size: 13px;
+	padding-left: 5px;
+	border-bottom: 1px dashed gray;
+	margin-left: 5px;
+	height: 75px;
+}
+
+.new_coent_right{
+	width: 318px;
+    height: 500px;
+    float: right;
+}
+.wz ul{
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 271px;
+	height: 170px;
+	list-style: none;
+}
+.wz ul li{
+	width: 271px;
+	height: 28px;
+	line-height: 28px;
+	background: url(../img/yuandian.gif) no-repeat;
+}
+.wz ul li a{
+	width: 271px;
+	height: 28px;
+	margin-left: 20px;
+}
+.wz ul li:hover{
+	background-color: red;
+	background-position-y:-28px ;
+}
+.tj{
+	width: 297px;
+	height: 30px;
+	float: right;
+	background: url(../img/zxwz.gif) no-repeat;
+	margin-top: 10px;
+}
+.tj p{
+	margin-top: 5px;
+	margin-left: 40px;
+	font-weight: bold;
+	color: white;
+}
+.tj_tu{
+	margin-top: 10px;
+}
+.tj_tu ul{
+	margin-top: 44px;
+	height: 418px;
+	list-style: none;
+}
+.tj_tu ul li{
+	margin: 20px 18px;
+	float: left;
+	width: 112px;
+	height: 93px;
+
+}
+.tj_tu ul li:nth-child(1):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(2):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(3):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(4):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(5):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(6):hover {
+	color: red;
+}
+.zxwz{
+	margin-left:20px ;
+	width: 271px;
+	height: 30px;
+	margin-top: 10px;
+	background: url(../img/zxwz.gif) no-repeat;
+}
+.zxwz p{
+	margin-left: 35px;
+	padding-top: 7px;
+	font-weight: bold;
+	color: white;
+}

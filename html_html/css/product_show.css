@@ -1,0 +1,77 @@
+.product{
+	padding-top: 10px;
+	width: 1000px;
+	height: 90px;
+	margin: auto;
+}
+.product p:nth-child(1){
+	text-align: center;
+}
+.product p a{
+	font-size: 13px;
+}
+.product_tu{
+	width: 1000px;
+	height: 90px;
+	margin: auto;
+}
+.product_tu ul{
+	margin: auto;
+    overflow: hidden;
+    width: 610px;
+}
+.product_tu li:hover{
+	background: url(../img/ico_bg.gif) no-repeat;
+	
+}
+.product_tu ul li{
+	width: 84px;
+	height: 84px;
+	background: url(../img/ico_none.gif) no-repeat;
+	margin-left: 50px;
+	float: left;
+	margin: 10px 5px 0;
+}
+.product_tu li:nth-child(1){
+	list-style: none;
+	margin-left: 50px;
+	width: 13px;
+	height: 43px;
+	background: url(../img/ico_left.gif) no-repeat;	
+	    margin-top: 23px;
+}
+.product_tu li:nth-child(7){
+	margin-left: 5px;
+	width: 13px;
+	height: 43px;
+	background: url(../img/ico_right.gif) no-repeat;	
+	    margin-top: 23px;
+}
+.product_tu div{
+	position: relative;
+	margin-top: 3px;
+    margin-left: 5px;
+    width: 75px;
+    height: 57px;
+    background: url(../img/pro_tu1.jpg) no-repeat;
+    background-size: cover;
+}
+ .product_tu div .xiaotu{
+	position: absolute;
+	width: 35px;
+	height: 20px;
+	color: white;
+	background: black;
+	margin-left: 0px;
+	bottom: 0px;
+	
+}
+.tu{
+    width: 1000px;
+    height: 600px;
+    margin: 0 369px;
+}
+.tu div{
+	width: 1000px;
+	height: 600px;
+}

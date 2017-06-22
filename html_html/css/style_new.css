@@ -1,0 +1,185 @@
+.zhongjian_bg{
+	width: 1000px;
+	height:1031px ;
+	margin: auto;
+	margin-top: 10px;
+}
+.zhongjian_left{
+	width: 691px;
+	height: 600px;
+	float: left;
+}
+.zhongjian_left p{
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.zhishi{
+	width: 670px;
+	height:37px ;
+	background-color: red;
+	margin-left: 20px;
+}
+.zhishi p{
+	line-height: 37px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.hunshazhao{
+	font-size: 15px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.hsz{
+	
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.hsz p{
+	margin-left: 2px;
+}
+.wenzhang{
+	height: 34px;
+	width: 80px;
+	background: red;
+}
+.new_list_tu{
+	height: 34px;
+	width: 80px;
+}
+.wenzhang{
+	height: 34px;
+	width: 294px;
+	background: url(../img/zxwz.gif) no-repeat;
+}
+.wenzhang p{
+	line-height: 34px;
+	margin-left: 40px;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+}
+.wenzhang ul{
+	margin-top: 5px;
+	width:400px;
+	height: 150px;
+	list-style: none;
+}
+.wenzhang ul li a{
+	width: 300px;
+	height: 28px;
+	background: gold;
+	line-height: 28px;
+	background: url(../img/yuandian.gif) no-repeat;
+}
+.wenzhang ul li a{
+	margin-left: 30px;
+}
+.wenzhang ul li:hover{
+	background: red;
+	background-position-y: -28px;
+}
+.zhongjian_right{
+	width: 297px;
+	height: 450px;
+	float: right;
+	background: url(../img/zxwz.gif) no-repeat;
+}
+.zhongjian_right p{
+	margin-top: 5px;
+	margin-left: 40px;
+	font-weight: bold;
+	color: white;
+}
+.wz ul{
+	margin-top: 10px;
+	width: 271px;
+	height: 196px;
+	list-style: none;
+}
+.wz ul li{
+	width: 290px;
+	height: 28px;
+	line-height: 28px;
+	background: url(../img/yuandian.gif) no-repeat;
+}
+.wz ul li a{
+	width: 290px;
+	height: 28px;
+	margin-left: 20px;
+}
+.wz ul li:hover{
+	background-color: red;
+	background-position-y:-28px ;
+}
+.tj{
+	width: 290px;
+	height: 30px;
+	float: right;
+	background: url(../img/zxwz.gif) no-repeat;
+	margin-top: 10px;
+}
+.tj p{
+	margin-top: 5px;
+	margin-left: 40px;
+	font-weight: bold;
+	color: white;
+}
+.tj_tu{
+	margin-top: 10px;
+}
+.tj_tu ul{
+	margin-top: 44px;
+	height: 418px;
+	list-style: none;
+}
+.tj_tu ul li{
+	margin: 20px 18px;
+	float: left;
+	width: 112px;
+	height: 93px;
+
+}
+.tj_tu ul li:nth-child(1):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(2):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(3):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(4):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(5):hover {
+	color: red;
+}
+.tj_tu ul li:nth-child(6):hover {
+	color: red;
+}
+.zxwz{
+	width:290px;
+	height:28px;
+	background: url(../img/zxwz.gif) no-repeat;
+}
+.zxwz p{
+	width: 70px;
+	height: 28px;
+	margin-left: 35px;
+	line-height: 28px;
+}
+/*交流方式排版**/
+.kongkong p:nth-child(2) a{
+	padding-left: 18px;
+}
+.kuang{
+	margin-top: -18px;
+	margin-left: 555px;
+	display: block;
+	width: 38px;
+	height: 18px;
+	
+}

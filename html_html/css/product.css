@@ -1,0 +1,172 @@
+.product{
+	margin-top: 10px;
+	width: 1000px;
+	height: 1317px;
+	margin: auto;
+}
+.product>p{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.product p a{
+	font-size: 13px;
+}
+.product_left{
+	width: 291px;
+	height: 800px;
+	float: left;
+}
+.yellow_right p{
+	width: 264px;
+	height: 32px;
+	background: #979797;
+	margin-top: -35px;    
+	margin-left: 27px;
+    line-height: 35px;
+}
+.yellow_right:hover p{
+	background: red;
+	
+}
+.overflow{
+	width: 261px;
+    height: 187px;
+    overflow: hidden;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.overflow li{
+	width: 264px;
+	height: 25px;
+}
+.huodong_tu{
+	width: 291px;
+	height: 40px;
+}
+.houdong{
+	margin-top: 20px;
+}
+.houdong ul li{
+	width: 291px;
+	height: 68px;
+	margin-top: 8px;
+	border-bottom: 1px dashed grey;
+}
+.houdong ul li p{
+	line-height: 20px;
+}
+.houdong ul li:hover{
+	color: red;
+}
+.baojia{
+	width: 291px;
+	height: 450px;
+	margin-top: 40px;
+}
+.baojia ul {
+	width: 291px;
+	height: 150px;
+}
+.baojia  ul li{
+	width: 291px;
+	height: 50px;
+	margin-top:30px;
+}
+.sanya_left{
+	width: 135px;
+	height: 20px;
+	float: left;
+}
+.sanya_right{
+	width: 141px;
+	height: 71px;
+	float: right;
+	background: url(../img/sanya.gif) no-repeat;
+	background-position: 0 -71px;
+}
+.diandian{
+	width: 12px;
+	height: 24px;
+	background: url(../img/sy.gif) no-repeat;
+	float: right;
+	margin-top: 23px;
+}
+.sanya_right p:nth-child(1){
+	margin-top: 5px;
+}
+.sanya_right p:nth-child(2){
+	margin-left: 11px;
+	font-size: 30px;
+}
+.baojia ul li:hover .sanya_left{
+	color: red;
+}
+.baojia ul li:hover .sanya_right{
+	background-position-y:  0px;
+}
+.baojia ul li:hover .diandian{
+	background-position-y: -24px;
+}
+.product_right{
+	width:696px;
+	height: 800px;
+	float: right;
+}
+.zuopin {
+	width: 800px;
+	height: 500px;
+}
+.zuopin ul {
+	width: 700px;
+	height: 1000px;
+}
+.img{
+	width: 322px;
+	height: 228px;
+	background: url(../img/cont_right.jpg) no-repeat;
+}
+.text1{
+	width: 322px;
+	height:35px;
+	background: #979797;
+	margin-top: 50px;
+	float: left;
+	color: #353434;
+}
+.text1 p:nth-child(1){
+	margin-top: 5px;
+	float: left;
+	padding-top: 3px;
+	margin-left: 10px;
+}
+.text1 p:nth-child(2){
+	float: right;
+	padding-top: 1px;
+	font-size: 20px;
+	margin-right: 14px;
+	display: none;
+}
+.text1 p:nth-child(2) span{
+	display: block;
+	font-size: 12px;
+	margin-top: -1px;
+}
+.text2{
+	width: 322PX;
+	height: 35px;
+}
+.zuopin ul li{
+	width: 322px;
+	height: 400px;
+	float: left;
+	margin: 0 10px;
+}
+.product_right ul li:hover .text1{
+	background: yellow;
+}
+.product_right ul li:hover .text2{
+	color: red;
+}
+.product_right ul li:hover .text1 p:nth-child(2){
+	display: block;
+}
